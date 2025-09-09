@@ -1,4 +1,3 @@
-// src/pages/ListaClientes.jsx
 import { useEffect, useState } from "react";
 
 function ListaClientes() {
@@ -56,13 +55,21 @@ function ListaClientes() {
                 <td>{c.id}</td>
                 <td>{c.nome_completo}</td>
                 <td>{c.sexo}</td>
-                <td>{c.data_nascimento}</td>
+                <td>
+                  {c.data_nascimento
+                    ? new Date(c.data_nascimento).toLocaleDateString("pt-BR")
+                    : ""}
+                </td>
                 <td>{c.email}</td>
                 <td>{c.telefone}</td>
                 <td>{c.cidade}</td>
                 <td>{c.estado}</td>
                 <td>{c.endereco}</td>
-                <td>{new Date(c.data_cadastro).toLocaleDateString()}</td>
+                <td>
+                  {c.data_cadastro
+                    ? new Date(c.data_cadastro).toLocaleDateString("pt-BR")
+                    : ""}
+                </td>
               </tr>
             ))}
           </tbody>
