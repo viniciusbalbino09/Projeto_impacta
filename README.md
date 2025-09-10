@@ -1,42 +1,40 @@
-# 🚀 Projeto Impacta - Cadastro de Clientes
+#  Projeto Impacta - Cadastro de Clientes
 
-Projeto de cadastro de clientes usando **React** (front-end), **Node.js/Express** (back-end) e **MySQL**.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Node.js](https://img.shields.io/badge/Back--end-Node.js-brightgreen)
+![React](https://img.shields.io/badge/Front--end-React-blue)
+![MySQL](https://img.shields.io/badge/Banco-MySQL-orange)
 
----
+**Descrição:**  
+Projeto de exemplo para **Cadastro de Clientes**, utilizando **React** no front-end, **Node.js/Express** no back-end e **MySQL** como banco de dados.  
+O projeto demonstra funcionalidades de cadastro, listagem, atualização e exclusão de clientes.
 
-## ⚙️ Como Rodar
+##  Como rodar
 
-### Back-end
+1. Clone o repositório:  
 ```bash
-cd backend
-npm install
-node server.js
-Servidor rodando em: http://localhost:5000
+git clone <URL_DO_REPOSITORIO>
+Entre nas pastas do back-end e front-end e instale as dependências:
 
-Front-end
 bash
 Copiar código
-cd frontend
+cd backend
 npm install
-npm start
-Front-end em: http://localhost:3000
 
-📋 Testar Cadastro
-Preencha o formulário no front-end e verifique no MySQL Workbench:
+cd ../frontend
+npm install
+Configure o banco MySQL (crie o banco e ajuste as credenciais no arquivo de configuração do back-end).
 
-sql
+Rode o back-end e front-end:
+
+bash
 Copiar código
-USE cadastro;
-SELECT * FROM clientes;
-📁 Estrutura
-Front-end: Tela de cadastro em React, comunicação via fetch.
+cd backend
+npm start
 
-Back-end: API REST com Node.js/Express, conecta ao MySQL (mysql2).
+cd ../frontend
+npm start
 
-Endpoints: GET /clientes, POST /clientes.
-
-Banco de Dados: Tabela clientes com campos:
-id, nome_completo, sexo, data_nascimento, email, telefone, cidade, estado, endereco, data_cadastro.
 
 📝 Licença
 MIT License © Vinicius Balbino
