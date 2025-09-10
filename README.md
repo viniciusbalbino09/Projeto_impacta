@@ -12,7 +12,7 @@ O projeto demonstra funcionalidades de cadastro, listagem, atualização e exclu
 ## 🚀 Como rodar
 
 1. Clone o repositório e instale dependências:
-
+```bash
 git clone <URL_DO_REPOSITORIO>
 cd backend && npm install
 cd ../frontend && npm install
@@ -20,6 +20,7 @@ Configure o banco MySQL (crie o banco e ajuste as credenciais no back-end).
 
 Inicie o projeto:
 
+bash
 Copiar código
 cd backend && node server.js
 cd ../frontend && npm start
