@@ -12,52 +12,70 @@ O projeto demonstra funcionalidades de cadastro, listagem, atualização e exclu
 
 # 🚀 Como rodar:
 
+# 🚀 Projeto Impacta - Cadastro de Clientes
+
 ## 🔹 Rodando o Backend
 
 1. Abra o terminal na pasta do backend:
-bash
 cd C:\Users\ADM\Desktop\Projeto Impacta\backend
-Instale as dependências (apenas na primeira vez):
 
-bash
+csharp
 Copiar código
+
+2. Instale as dependências (apenas na primeira vez):
 npm install
-Inicie o servidor:
 
-bash
+markdown
 Copiar código
+
+3. Inicie o servidor:
 node server.js
-Deve aparecer:
 
 yaml
 Copiar código
+
+Deve aparecer:
 Servidor rodando na porta 5000 🚀
 Conectado ao MySQL com sucesso!
-🔹 Rodando o Frontend
-Abra outro terminal na pasta do frontend:
 
-bash
+yaml
 Copiar código
+
+---
+
+## 🔹 Rodando o Frontend
+
+1. Abra outro terminal na pasta do frontend:
 cd C:\Users\ADM\Desktop\Projeto Impacta\frontend
-Instale as dependências (apenas na primeira vez):
 
-bash
+csharp
 Copiar código
+
+2. Instale as dependências (apenas na primeira vez):
 npm install
-Inicie o frontend:
 
-bash
+markdown
 Copiar código
+
+3. Inicie o frontend:
 npm start
-O navegador abrirá automaticamente em:
-http://localhost:3000/
 
-🔹 Testando o Cadastro
-Preencha o formulário e clique em Cadastrar-se.
-
-Verifique no MySQL Workbench:
-
-sql
+yaml
 Copiar código
+
+O navegador abrirá automaticamente em:  
+[http://localhost:3000/](http://localhost:3000/)
+
+---
+
+## 🔹 Testando o Cadastro
+
+1. Preencha o formulário e clique em **Cadastrar-se**.  
+2. Verifique no MySQL Workbench:
 USE cadastro;
 SELECT * FROM clientes;
+
+mathematica
+Copiar código
+
+O cliente cadastrado deverá aparecer na tabela.
