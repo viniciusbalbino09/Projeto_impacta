@@ -9,7 +9,24 @@
 Projeto de exemplo para **Cadastro de Clientes**, utilizando **React** no front-end, **Node.js/Express** no back-end e **MySQL** como banco de dados.  
 O projeto demonstra funcionalidades de cadastro, listagem, atualização e exclusão de clientes.
 
+Este projeto é uma aplicação full-stack para cadastro de clientes, desenvolvida com:
 
+- **Frontend:** React.js
+- **Backend:** Node.js com Express
+- **Banco de Dados:** MySQL
+
+A aplicação permite realizar as operações CRUD (Criar, Ler, Atualizar e Deletar) de forma simples e eficiente.
+
+---
+
+## 🔧 Pré-requisitos
+
+Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
+
+- **Node.js**
+- **MySQL Server**: 
+- **MySQL Workbench**
+- 
 ## 🔹 Rodando o Backend
 
 1. Abra o terminal na pasta do backend:
