@@ -15,12 +15,9 @@ O projeto demonstra funcionalidades de cadastro, listagem, atualização e exclu
 1. Abra o terminal na pasta do backend:
 cd C:\Users\ADM\Desktop\Projeto Impacta\backend
 
-2. Instale as dependências (apenas na primeira vez):
-npm install
+2. Instale as dependências (apenas na primeira vez): npm install
 
-3. Inicie o servidor:
-   
-node server.js
+3. Inicie o servidor: node server.js
 
 Deve aparecer:
 Servidor rodando na porta 5000 🚀
@@ -33,11 +30,9 @@ Conectado ao MySQL com sucesso!
 1. Abra outro terminal na pasta do frontend:
 cd C:\Users\ADM\Desktop\Projeto Impacta\frontend
 
-2. Instale as dependências (apenas na primeira vez):
-npm install
+2. Instale as dependências (apenas na primeira vez): npm install
 
-3. Inicie o frontend:
-npm start
+3. Inicie o frontend: npm start
 
 O navegador abrirá automaticamente em:  
 [http://localhost:3000/](http://localhost:3000/)
