@@ -12,7 +12,6 @@ O projeto demonstra funcionalidades de cadastro, listagem, atualização e exclu
 
 # 🚀 Como rodar:
 
-# 🚀 Projeto Impacta - Cadastro de Clientes
 
 ## 🔹 Rodando o Backend
 
