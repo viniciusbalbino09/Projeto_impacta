@@ -18,7 +18,6 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 - **Node.js**
 - **MySQL Server**: 
 - **MySQL Workbench**
-- 
 ---
 
 ## 🔹 Rodando o Backend
