@@ -12,8 +12,10 @@ O projeto demonstra funcionalidades de cadastro, listagem, atualização e exclu
 
 # 🚀 Como rodar:
 
+## 🔹 Rodando o Backend
+
 1. Abra o terminal na pasta do backend:
-```bash
+bash
 cd C:\Users\ADM\Desktop\Projeto Impacta\backend
 Instale as dependências (apenas na primeira vez):
 
@@ -31,7 +33,6 @@ yaml
 Copiar código
 Servidor rodando na porta 5000 🚀
 Conectado ao MySQL com sucesso!
-
 🔹 Rodando o Frontend
 Abra outro terminal na pasta do frontend:
 
