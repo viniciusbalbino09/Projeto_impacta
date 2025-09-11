@@ -27,6 +27,8 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 - **MySQL Server**: 
 - **MySQL Workbench**
 - 
+---
+
 ## 🔹 Rodando o Backend
 
 1. Abra o terminal na pasta do backend:
