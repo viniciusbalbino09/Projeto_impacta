@@ -21,9 +21,9 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 ---
 
 
-🚀 Como Rodar
+## 🚀Pré-requisitos
 
-🔹 Backend
+## 🔹Backend
 
 Abra o terminal na pasta do backend:
 
@@ -42,7 +42,7 @@ node server.js
 
 ---
 
-🔹 Frontend
+## 🔹 Frontend
 
 Abra o terminal na pasta do frontend:
 
@@ -55,11 +55,11 @@ Acesse no navegador: http://localhost:3000
 
 ---
 
-📝 Cadastro de Dados
+## 📝 Cadastro de Dados
 
 Preencha o formulário de clientes ou equipamentos.
 
-Clique em Cadastrar.
+Clique em  Cadastrar.
 
 Verifique os dados no MySQL Workbench:
 
@@ -69,7 +69,7 @@ SELECT * FROM equipamentos;
 
 ---
 
-⚠️ Observações Importantes
+## ⚠️ Observações Importantes
 
 Configure a senha do MySQL no arquivo server.js.
 
