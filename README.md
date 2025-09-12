@@ -20,20 +20,30 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 - **MySQL Workbench**
 ---
 
-⚡ Como Rodar
-
+⚡ Como Rodar o Projeto
 🔹 Backend
+
+Abra o terminal na pasta do backend:
 
 cd backend
 npm install
-# Configure sua senha do MySQL no server.js
+
+
+Configure sua senha do MySQL no arquivo server.js.
+
+Inicie o servidor:
+
 node server.js
+
+
+✅ Servidor rodando na porta 5000.
 
 ---
 
-Servidor rodando na porta 5000.
 
 🔹 Frontend
+
+Abra o terminal na pasta do frontend:
 
 cd frontend
 npm install
@@ -44,19 +54,21 @@ Acesse no navegador: http://localhost:3000
 
 ---
 
+
 📝 Cadastro
 
 Preencha o formulário de clientes ou equipamentos.
 
 Clique em Cadastrar.
 
-Verifique no MySQL Workbench:
+Verifique os dados no MySQL Workbench:
 
 USE cadastro;
-SELECT * FROM clientes;        -- ou
+SELECT * FROM clientes;
 SELECT * FROM equipamentos;
 
 
-⚠️ Importante: configure a senha do MySQL no arquivo server.js.
+⚠️ Importante: não esqueça de configurar a senha do MySQL no arquivo server.js.
 
 ---
+
