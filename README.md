@@ -35,7 +35,7 @@ Configure sua  **senha do MySQL**  no arquivo server.js.
 
 Inicie o servidor:
 
-'node server.js'
+`node server.js`
 
 
 ✅ Servidor rodando na porta 5000.
@@ -46,9 +46,9 @@ Inicie o servidor:
 
 Abra o terminal na pasta do frontend:
 
-'cd frontend'
-'npm install'
-'npm start'
+`cd frontend`
+`npm install`
+`npm start`
 
 
 Acesse no navegador: http://localhost:3000
@@ -63,9 +63,9 @@ Clique em  **Cadastrar**.
 
 Verifique os dados no MySQL Workbench:
 
-'USE cadastro;'
-'SELECT * FROM clientes;'
-'SELECT * FROM equipamentos;'
+`USE cadastro;`
+`SELECT * FROM clientes;`
+`SELECT * FROM equipamentos;`
 
 ---
 
