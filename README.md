@@ -20,112 +20,30 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 - **MySQL Workbench**
 ---
 
-🚀 Guia Rápido: Projeto de Cadastro de Clientes e Equipamentos
-
-🔹 Backend
-
-Abra o terminal na pasta do backend:
-
-cd C:\Users\ADM\Desktop\Projeto Impacta\backend
-
-
-Instale dependências (somente na primeira vez):
-
+⚡ Como Rodar
+Backend
+cd backend
 npm install
-
-
-Configure a senha do MySQL no server.js:
-
-const db = mysql.createConnection({
-  host: "127.0.0.1",
-  port: 3306,
-  user: "root",
-  password: "SUA_SENHA_AQUI", // <-- substitua pela senha do seu MySQL
-  database: "cadastro",
-});
-
-
-Inicie o servidor:
-
+# Configure sua senha do MySQL no server.js
 node server.js
 
-
-Deve aparecer:
-
-Servidor rodando na porta 5000 🚀
-Conectado ao MySQL com sucesso!
-
-🔹 Frontend
-
-Abra outro terminal na pasta do frontend:
-
-cd C:\Users\ADM\Desktop\Projeto Impacta\frontend
-
-
-Instale dependências (somente na primeira vez):
-
+Frontend
+cd frontend
 npm install
-
-
-Inicie o frontend:
-
 npm start
 
 
-O navegador abrirá automaticamente em:
+Frontend: http://localhost:3000/
 
-http://localhost:3000/
+Backend: porta 5000
 
-🔹 Cadastro de Clientes
+📝 Cadastro
 
-Acesse a página de cadastro de clientes.
-
-Preencha o formulário com os dados obrigatórios.
-
-Clique em Cadastrar-se.
-
-Verifique no MySQL Workbench:
-
-USE cadastro;
-SELECT * FROM clientes;
-
-
-O cliente cadastrado deverá aparecer na tabela.
-
-🔹 Cadastro de Equipamentos
-
-Acesse a página de cadastro de equipamentos.
-
-Preencha o formulário com os campos:
-
-Nome do equipamento
-
-Marca
-
-Modelo
-
-Número de série
-
-Patrimônio
-
-Status (Em uso, Em manutenção, Reservado, Sucata)
-
-Localização
-
-Responsável
-
-Data de aquisição
-
-Fim da garantia
-
-Observações
+Preencha o formulário de clientes ou equipamentos.
 
 Clique em Cadastrar.
 
-Verifique no MySQL Workbench:
+Verifique no MySQL:
 
 USE cadastro;
-SELECT * FROM equipamentos;
-
-
-O equipamento cadastrado deverá aparecer na tabela.
+SELECT * FROM clientes; -- ou equipamentos
