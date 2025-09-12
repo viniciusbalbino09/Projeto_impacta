@@ -31,7 +31,7 @@ cd backend
 npm install
 
 
-Configure sua senha do MySQL no arquivo server.js.
+Configure sua  **senha do MySQL**  no arquivo server.js.
 
 Inicie o servidor:
 
@@ -59,7 +59,7 @@ Acesse no navegador: http://localhost:3000
 
 Preencha o formulário de clientes ou equipamentos.
 
-Clique em  Cadastrar.
+Clique em  **Cadastrar**.
 
 Verifique os dados no MySQL Workbench:
 
@@ -71,9 +71,9 @@ SELECT * FROM equipamentos;
 
 ## ⚠️ Observações Importantes
 
-Configure a senha do MySQL no arquivo server.js.
+Configure a **senha do MySQL** no arquivo server.js.
 
-Certifique-se de que o MySQL está rodando antes de iniciar o backend.
+Certifique-se de que o **MySQL está rodando** antes de iniciar o backend.
 
 ---
 
