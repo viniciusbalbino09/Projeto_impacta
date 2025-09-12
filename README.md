@@ -57,7 +57,7 @@ Acesse no navegador: http://localhost:3000
 
 ## 📝 Cadastro de Dados
 
-Preencha o formulário de clientes ou equipamentos.
+Preencha o formulário de clientes.
 
 Clique em  **Cadastrar**.
 
