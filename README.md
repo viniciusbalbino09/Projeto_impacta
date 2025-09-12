@@ -26,8 +26,9 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 
 Abra o terminal na pasta do backend:
 
-cd backend
-npm install
+`cd backend`
+`npm install`
+
 
 
 Configure sua  **senha do MySQL**  no arquivo server.js.
