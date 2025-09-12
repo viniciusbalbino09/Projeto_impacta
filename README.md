@@ -20,40 +20,72 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 - **MySQL Workbench**
 ---
 
-## 🔹 Rodando o Backend
+🔹 Rodando o Backend
 
-1. Abra o terminal na pasta do backend:
+Abra o terminal na pasta do backend:
+
 cd C:\Users\ADM\Desktop\Projeto Impacta\backend
 
-2. Instale as dependências (apenas na primeira vez): npm install
 
-3. Inicie o servidor: node server.js
+Instale as dependências (somente na primeira vez):
 
-Deve aparecer:
+npm install
+
+
+Antes de iniciar o servidor, verifique a senha do MySQL configurada no arquivo server.js.
+
+No arquivo server.js, localize a configuração do banco:
+
+const db = mysql.createConnection({
+  host: "127.0.0.1",
+  port: 3306,
+  user: "root",
+  password: "SUA_SENHA_AQUI", // <-- altere para a senha correta do MySQL
+  database: "cadastro",
+});
+
+
+Substitua "SUA_SENHA_AQUI" pela senha que você definiu para o usuário do MySQL.
+
+Inicie o servidor:
+
+node server.js
+
+
+Se tudo estiver correto, você verá:
+
 Servidor rodando na porta 5000 🚀
 Conectado ao MySQL com sucesso!
 
----
+🔹 Rodando o Frontend
 
-## 🔹 Rodando o Frontend
+Abra outro terminal na pasta do frontend:
 
-1. Abra outro terminal na pasta do frontend:
 cd C:\Users\ADM\Desktop\Projeto Impacta\frontend
 
-2. Instale as dependências (apenas na primeira vez): npm install
 
-3. Inicie o frontend: npm start
+Instale as dependências (somente na primeira vez):
 
-O navegador abrirá automaticamente em:  
-[http://localhost:3000/](http://localhost:3000/)
+npm install
 
----
 
-## 🔹 Testando o Cadastro
+Inicie o frontend:
 
-1. Preencha o formulário e clique em **Cadastrar-se**.  
-2. Verifique no MySQL Workbench:
+npm start
+
+
+O navegador abrirá automaticamente em:
+
+http://localhost:3000/
+
+🔹 Testando o Cadastro
+
+Preencha o formulário e clique em Cadastrar-se.
+
+Verifique no MySQL Workbench:
+
 USE cadastro;
 SELECT * FROM clientes;
+
 
 O cliente cadastrado deverá aparecer na tabela.
