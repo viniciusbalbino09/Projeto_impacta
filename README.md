@@ -20,9 +20,6 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 - **MySQL Workbench**
 ---
 
-
-## 🚀Pré-requisitos
-
 ## 🔹Backend
 
 Abra o terminal na pasta do backend:
