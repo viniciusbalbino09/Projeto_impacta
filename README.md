@@ -21,6 +21,7 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados:
 ---
 
 ⚡ Como Rodar o Projeto
+
 🔹 Backend
 
 Abra o terminal na pasta do backend:
